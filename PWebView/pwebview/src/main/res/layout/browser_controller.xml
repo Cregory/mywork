@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFF6F6F6"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+
+    <ImageButton
+        android:id="@+id/controller_back"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:src="@drawable/btn_back"
+        android:scaleType="centerInside"
+        />
+
+    <ImageButton
+        android:id="@+id/controller_forward"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:src="@drawable/btn_forward"
+        android:scaleType="centerInside"
+        />
+
+    <ImageButton
+        android:id="@+id/controller_refresh"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:src="@drawable/btn_refresh"
+        android:scaleType="centerInside"
+        />
+
+    <ImageButton
+        android:id="@+id/controller_go"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:src="@drawable/btn_export_normal"
+        android:scaleType="centerInside"
+        />
+
+</LinearLayout>
